@@ -1,0 +1,384 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+
+body{
+font-family: Quicksand, Quicksand-Light, Maven Pro, Robotica, sans-serif;
+    background-color:white;
+}
+nav ul a,
+nav .brand-logo {
+  color: #444;
+}
+
+p {
+  line-height: 2rem;
+}
+
+@font-face{
+    font-family: Quicksand;
+    src: url(fonts/Quicksand-Regular.otf);
+    
+    font-family: Quickstand-Light;
+    src: url(fonts/Quicksand-Light.otf);
+}
+
+#bannerContainer{
+    background-color: #2999F2;
+    width:100%;
+    margin:0px;
+    color: white;
+}
+
+#logoWrapper{
+    margin-top:5%;
+    margin-bottom:5%;
+}
+html .row{
+margin-bottom:0px;
+}
+#logo{
+    width:60%;
+    min-width:200px;
+    position:relative;
+    display:inline-block;
+    left:50%;
+    transform:translateX(-50%);
+}
+#logoBlurb{
+    text-align: center;
+    font-size: 2rem;
+    background-color: #2B6cA3;
+}
+
+.infoBlock{
+    margin-top: 5%;
+    text-align:center;
+
+}
+.infoBlock img{
+    display:inline-block;
+    width:60%;
+}
+.infoBlock p{
+    width:100%;
+    text-align:center;
+    font-size:1rem;
+    line-height: 1rem;
+}
+.infoBlock h1{
+    text-align:center;
+    margin-top:0rem;
+    font-size:2rem;
+    line-height:2rem;
+}
+
+#paraPatch{
+    width:100%;
+    min-width:880px;
+}
+.button-collapse {
+  color: #26a69a;
+}
+
+#navBarNav{
+    position:;
+    z-index:100;
+}
+#navBar{
+    margin-top:0px;
+}
+
+.parallax-container{
+    width:100%;
+    /*max-height:500px;
+    min-height:112px*/
+}
+
+.parallax{
+    width:100%;
+    min-width: 1200px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.parallax img{
+    width:100%;
+}
+
+#teamBox{
+    margin-top:15%;
+}
+#titleBox{
+    text-align: center;
+    color: #444;
+    font-size: 3rem;
+    text-decoration:underline;
+    font-weight:400;
+    
+}
+
+.container{
+    width:100%;
+    margin:0px;
+    margin-top:10%;
+    padding:0px;
+    max-width:2000px;
+}
+
+.logo{
+    width:100%;
+    height:100%;
+}
+#logo-container {
+  height: 100%;
+}
+#logo-container>img {
+  height: 100%;
+}
+.rowPics{
+    overflow:hidden;
+}
+.rowPics>img{
+    width:120%;
+    min-height:400px;
+    max-height: 500px;
+}
+
+.probWrapper{margin:2.5% 0%;}
+.probBox{
+    width: 100%;
+    padding:0px;
+    height:25%;
+    text-align:center;
+    color:white;
+}
+#probBox1{
+    background-color: #F68D41;
+}
+#probBox2{
+    background-color: #8CC63F;
+}
+#probBox3{
+    background-color: #00B8FF;
+}
+.iconTitle{
+    margin-bottom:30%;
+    margin-top:5%;
+    font-size:3em;
+    
+}
+.iconBlurb{
+    position: relative;
+    font-size: 2em;
+    width: 80%;
+    left:10%;
+    line-height: 1em;
+    height:4em;
+}
+.icon{
+    position:relative;
+    width:100%;
+}
+.row>.rowPicsBox{
+    padding: 0 0.25rem;
+    min-height: 400px;
+}
+
+.photoBox{
+    padding:0px;
+    margin:0px;
+}
+.photo{
+width:100%;
+}
+#photoRow .photoBox{
+ padding: 0em;
+}
+
+
+
+
+.Wallop {
+    width: 100%;
+    text-align:center;
+    }
+.Wallop-item img {
+    width: 100%;
+    left: 0%;
+    top:0%;
+}
+.Wallop-item p{
+    position: absolute;
+    color: white;
+    opacity:1;
+    width:40%;
+    left:30%;
+    top:50%;
+    transform:translateY(-50%);
+    text-align: center;
+    font-size: 6vw;
+    margin: 0px;
+    line-height: 6vw;
+}
+.Wallop-buttonPrevious{
+    left: 1pc;
+}
+.Wallop-buttonNext{
+    right: 1px;
+}
+.WButton{
+    border: none;
+    background: hsla(0,0%,0%,0);
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    top:50%;
+    transform: translateY(-50%);
+    padding: 0px 15px 0px 15px;
+}
+.WButton>*{
+    height:60px;
+    width: 30px;
+    
+}
+.overlay{   
+    position:absolute;
+}
+
+#caroPage{
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    bottom:1px;
+}
+#caroPage li a{
+    color:white;
+}
+#caroPage li.active{
+    background-color:white;
+}
+#caroPage .active a{
+    color:black;
+}
+
+#press{
+    background-color: white;
+    color:rgb(76,127,171);
+    text-align:center;
+}
+#press h1{
+    font-size: 4rem;
+    line-height: 4rem;
+    margin: .2rem 0 1.2rem 0;
+}
+#press p{
+
+    font-size:2rem;
+    line-height:2rem;
+}
+
+#contact .row{
+    color:white;
+    text-align:left;
+}
+#contact .row div h5{
+    font-size:2rem;
+    line-height:2rem;
+}
+#contact .row div p{
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+}
+#contact .row div ul *{
+    font-size: 1.5rem;
+    line-height: 1.7rem;
+}
+.teamBlurb{
+    text-align: center;
+    font-size: 1.5em;
+    line-height: 1.5em;
+    font-weight:200;
+}
+
+#contactBlurb{
+    text-align: center;
+    font-size: 4em;
+    color:#EEEEEE;
+    transform: translateY(-100%);
+}
+
+  #index-banner .section {
+    top: 10%;
+  }
+}
+
+@media only screen and (max-width : 600px) {
+  #index-banner .section {
+    top: 0;
+  }
+}
+
+footer.page-footer {
+  margin: 0;
+}
+
+.text-color {
+  color: #307abc;
+}
+.timeline-container {
+  height: 300px;
+  width: 600px;
+  margin: 0 auto;
+  position: relative;
+}
+.timeline-container img {
+  width: 100%;
+  display: block;
+  margin: 75px auto;
+}
+.timeline-container div {
+  position: absolute;
+  max-width: 100px;
+}
+.timeline-container div p {
+  line-height: 1.2rem;
+  text-align: center;
+}
+.timeline-container div h3 {
+  margin: 0;
+}
+.team-photo {
+  max-width: 100%;
+}
+.press-link {
+  color: #307abc;
+  font-size: 1.1em;
+  line-height: 1.5em;
+}
+.press-link:hover {
+  color: #20517d;
+}
+.press-link>p {
+  display: inline;
+}
+.social-link:hover {
+  color: #9e9e9e;
+}
+.profile-link{
+    color:white;
+}
+.profile-link:hover {
+  color: #666 !important;
+  cursor: pointer;
+}
+ .footer-copyright{
+     font-size:1em;
+     line-height:1em;
+     text-align:center;
+    
+ }
