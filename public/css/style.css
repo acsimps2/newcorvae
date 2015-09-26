@@ -218,12 +218,12 @@ width:100%;
     opacity:1;
     width:40%;
     left:30%;
-    top:50%;
-    transform:translateY(-50%);
+    top: 75%;
+    transform: translateY(-50%);
     text-align: center;
-    font-size: 6vw;
+    font-size: 6vmin;
     margin: 0px;
-    line-height: 6vw;
+    line-height: 6vmin;
 }
 .Wallop-buttonPrevious{
     left: 1pc;
@@ -267,36 +267,43 @@ width:100%;
 }
 
 #press{
+    margin: 6% 0;
     background-color: white;
     color:rgb(76,127,171);
     text-align:center;
 }
 #press h1{
-    font-size: 4rem;
-    line-height: 4rem;
-    margin: .2rem 0 1.2rem 0;
+    font-size: 2rem;
+    line-height: 2rem;
+    margin: 0 0 3rem 0;
 }
 #press p{
-
-    font-size:2rem;
-    line-height:2rem;
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    max-width: 75%;
+    display: inline-block;
 }
 
 #contact .row{
+    margin: 4rem 0;
     color:white;
     text-align:left;
 }
 #contact .row div h5{
-    font-size:2rem;
-    line-height:2rem;
+    font-size:1.5rem;
+    line-height:1.5rem;
 }
 #contact .row div p{
-    font-size: 1.5rem;
-    line-height: 1.7rem;
+    font-size: 1rem;
+    line-height: 1rem;
+    max-width: 65%;
 }
 #contact .row div ul *{
-    font-size: 1.5rem;
-    line-height: 1.7rem;
+    font-size: 1rem;
+    line-height: 1rem;
+}
+#contact .row div ul li a{
+    color: black;
 }
 .teamBlurb{
     text-align: center;
